@@ -12,7 +12,7 @@ export default function App() {
     return stored ? JSON.parse(stored) : null;
   });
 
-  const apiUrl = import.meta.env.VITE_API_URL || 'https://epavlou09.replit.app';
+  const apiUrl = import.meta.env.VITE_API_URL || 'https://5a-00-9yks8figitxn.janeway.replit.dev';
 
   // Placeholder data for fallback
   const placeholderData = {
